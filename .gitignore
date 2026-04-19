@@ -32,6 +32,7 @@ fastlane/test_output
 # Env / secrets (defensive)
 .env
 .env.*
+!.env.example
 *.p8
 *.p12
 *.mobileprovision
