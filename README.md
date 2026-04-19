@@ -114,9 +114,30 @@ xcodebuild test \
 - 用时间戳 `YYYYMMDDHHMM` 作为 build number,TestFlight 不会重号
 - 直接上传 ASC,~2-3 分钟本地 + ~15-30 分钟 ASC 处理后在 TestFlight 可见
 
-### 切换 GitHub Actions(可选)
+### GitHub Actions(云端自动发 build)
 
-把 `.p8` + `ASC_KEY_ID` + `ASC_ISSUER_ID` 存成 repo secrets,加个 `.github/workflows/testflight.yml` 在 tag push 时触发同一脚本。需要时告诉我,我给你补上。
+已内置 [.github/workflows/testflight.yml](.github/workflows/testflight.yml) — 在 `macos-latest` runner 上跑同一套 archive 脚本,公开仓库免费。两种触发:
+
+- **手动:** repo → Actions tab → TestFlight → Run workflow
+- **tag push:** `git tag v1.0.1 && git push --tags`
+
+#### 一次性:配置 4 个 repo secrets
+
+<https://github.com/uhyrdtrdtfg-creator/subtally/settings/secrets/actions> → New repository secret,逐个加:
+
+| Secret | 值 |
+|--------|---|
+| `DEVELOPMENT_TEAM` | 10 位 Apple Team ID(同 `project.yml` 那个) |
+| `ASC_KEY_ID` | ASC API Key ID(10 字符) |
+| `ASC_ISSUER_ID` | ASC Issuer ID(UUID) |
+| `ASC_API_KEY_P8` | `.p8` 文件**全部内容**(包括 `-----BEGIN PRIVATE KEY-----` 和结尾行,GitHub 支持多行 secret) |
+
+> `DEVELOPMENT_TEAM` 走 secret 是为了不把 Team ID 暴露在公开 repo 的 `project.yml` 里。workflow 会在 CI 阶段把它 `sed` 进 yaml 再 `xcodegen generate`。
+
+#### 跑完会:
+
+- Archive + Export + Upload 到 TestFlight(~10 min)
+- 把 `.xcarchive`(含 dSYM,14 天内可用于 crash 符号化)留成 workflow artifact
 
 ---
 
