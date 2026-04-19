@@ -1,0 +1,46 @@
+Subtally — See every subscription. Cut every leak.
+
+How many services do you actually pay for? What renews next week? Which free trial is about to silently turn into a charge? Subtally is a modern subscription manager for iPhone, iPad, and Apple Watch that puts every recurring expense in one private, beautifully designed place — with proactive reminders, smart insights, and zero tracking.
+
+— Highlights —
+
+iCloud Sync
+Your data syncs seamlessly between your devices via CloudKit, stored encrypted in your private iCloud database. Switch devices without lifting a finger. Nothing ever touches a third-party server.
+
+Live Activity & Dynamic Island
+Trial countdowns and imminent renewals appear as Live Activities on the Lock Screen and in the Dynamic Island, so the moments that matter never slip past you.
+
+Home Screen Widgets
+Multiple widget sizes for monthly total, upcoming renewals, and category breakdowns — see your subscription pulse without opening the app.
+
+Webhook Automation
+Trigger custom webhooks on subscription added, renewed, cancelled, or N days before a trial ends. Connect to Notion, Slack, Home Assistant, Shortcuts, or anything that speaks HTTP — and weave your subscription state into your real workflow.
+
+Vision OCR
+Snap a receipt, invoice, or confirmation email. The built-in Apple Vision OCR pipeline extracts amount, date, merchant, and renewal cycle, then imports it with a single tap. No more manual entry.
+
+Siri & Shortcuts
+Deep App Intents integration. Ask Siri "how much do I still owe in subscriptions this month" or "when is my next renewal", and chain Subtally into Shortcuts (e.g. payday digest, end-of-month summary).
+
+Family Splitting
+Share a subscription across multiple people and split the cost proportionally — perfect for couples, roommates, and families sharing streaming and cloud storage.
+
+Smart Insights
+Fully on-device analytics (your data never leaves the device) surface actionable suggestions: idle subscriptions, annual vs monthly comparisons, foreign exchange swings, year-over-year heat maps, and anonymous peer benchmarks.
+
+— Privacy First —
+Everything is stored locally and in your private iCloud. We collect no personal data, run no trackers, serve no ads, and sell nothing. A full PrivacyInfo.xcprivacy manifest is shipped with the app.
+
+— Built For —
+- Heavy subscribers to streaming, cloud, and AI tools
+- Thoughtful spenders who want to escape the subscription trap
+- Anyone who has ever been burned by an auto-renewing free trial
+- Households splitting recurring costs
+- Power users who automate their life with Shortcuts and Webhooks
+
+— Coming Soon —
+- Native macOS and visionOS apps
+- Multi-currency live conversion and rate history
+- Optional import from bank statements
+
+Download Subtally and start spending intentionally — today.

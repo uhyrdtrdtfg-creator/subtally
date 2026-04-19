@@ -1,0 +1,5 @@
+【中文】(≤170 字符,可随时改,不触发审核)
+新版 1.0:iCloud 同步、灵动岛试用倒计时、年度分享卡片、Webhook 自动化、Vision OCR 识别扣款凭证。数据全程本地与私人 iCloud,不追踪、不投放广告。
+
+【English】(≤170 characters)
+Now in 1.0: iCloud sync, Dynamic Island trial countdowns, year-in-review cards, webhook automation, Vision OCR receipt import. Local-first, zero tracking, zero ads.

@@ -1,0 +1,33 @@
+【中文】
+
+订算 1.0 — 首次发布
+
+感谢你下载「订算」!首发版本包含:
+- iCloud 同步:多设备数据无缝同步,加密保存于你的私人 iCloud
+- 灵动岛与 Live Activity:试用倒计时与续费提醒
+- 桌面小组件:本月总支出、即将续费、分类聚合
+- Webhook 自动化:订阅事件触发自定义 HTTP 回调
+- Vision OCR:对账单截图自动识别金额与续期周期
+- Siri 与 Shortcuts:语音查询与快捷指令编排
+- 家庭分账:多人按比例共担同一项订阅
+- 智能洞察:本地分析,识别闲置订阅与年付节省机会
+
+如有问题,请通过设置内的「联系我们」或访问 https://subtally.app/support 反馈。
+祝你订阅理性,生活轻盈。
+
+— English —
+
+Subtally 1.0 — Initial Release
+
+Thanks for installing Subtally! This first release includes:
+- iCloud sync across all your devices, encrypted in your private database
+- Live Activities and Dynamic Island for trial countdowns and renewals
+- Home Screen widgets for monthly total, upcoming, and category views
+- Webhook automation triggered by subscription events
+- Vision OCR for receipt and invoice import
+- Siri and Shortcuts integration via App Intents
+- Family splitting for shared subscriptions
+- On-device smart insights to surface idle subs and savings
+
+Found something? Reach us via in-app Contact or https://subtally.app/support.
+Subscribe smarter, live lighter.
