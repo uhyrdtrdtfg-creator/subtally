@@ -84,6 +84,42 @@ xcodebuild test \
 
 目前 37 条测试覆盖 `ReceiptParser`、`InsightsEngine`、`WebhookTemplate`、`PriceChangeRecorder`。
 
+## 自动化打包上传(TestFlight CI)
+
+一条命令完成 `Archive → Export → Upload` 三步,不用开 Organizer。
+
+### 前置(一次性)
+
+1. **付费 Apple Developer 账号 + Team ID** 已填入 `project.yml`
+2. **App Store Connect API Key**
+   - <https://appstoreconnect.apple.com> → Users and Access → Integrations → App Store Connect API
+   - 生成一把 role ≥ `App Manager` 的 Key,**只给下载一次**的 `.p8` 文件保存好
+   - 放到标准路径:`~/.appstoreconnect/private_keys/AuthKey_<KEY_ID>.p8`
+3. **填 `.env`**
+
+    ```bash
+    cp .env.example .env
+    # 编辑 .env,填入 ASC_KEY_ID(10 位)和 ASC_ISSUER_ID(UUID)
+    ```
+
+### 每次发 build
+
+```bash
+./Scripts/archive-and-upload.sh
+```
+
+脚本会:
+- 自动 `xcodegen generate`(若 `project.yml` 有改动)
+- Archive + 自动签名(通过 API Key,无需登录 Xcode)
+- 用时间戳 `YYYYMMDDHHMM` 作为 build number,TestFlight 不会重号
+- 直接上传 ASC,~2-3 分钟本地 + ~15-30 分钟 ASC 处理后在 TestFlight 可见
+
+### 切换 GitHub Actions(可选)
+
+把 `.p8` + `ASC_KEY_ID` + `ASC_ISSUER_ID` 存成 repo secrets,加个 `.github/workflows/testflight.yml` 在 tag push 时触发同一脚本。需要时告诉我,我给你补上。
+
+---
+
 ## 上架到 TestFlight
 
 1. 付费 Apple Developer Program($99/yr),拿 Team ID
