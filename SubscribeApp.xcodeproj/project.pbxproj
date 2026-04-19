@@ -146,13 +146,13 @@
 		531DEC59048E1C1DC6E463C1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		595E0EF45C8574791FA31693 /* YearInReviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInReviewCard.swift; sourceTree = "<group>"; };
 		5A3581FADED89849E931C96F /* BackgroundRefreshManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshManager.swift; sourceTree = "<group>"; };
-		5AAE5A1F87E1D03B753B5F1B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5AAE5A1F87E1D03B753B5F1B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		5ADB393D8CD0238A64234242 /* WebhookDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookDispatcher.swift; sourceTree = "<group>"; };
 		6104F13E71B4B4C8E9EED70D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6243A37535045093954CDDED /* ReceiptParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptParserTests.swift; sourceTree = "<group>"; };
 		67AA030D95D50C9983EC8ABD /* SubscribeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeAppApp.swift; sourceTree = "<group>"; };
 		6BEE59D8127F3DD9A1132B95 /* YearInReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInReviewView.swift; sourceTree = "<group>"; };
-		6F383A672E5CC7680816772D /* SubscribeWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SubscribeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F383A672E5CC7680816772D /* SubscribeWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SubscribeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		742D51EE27C028A8D07DC4DC /* SubscribeIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeIntents.swift; sourceTree = "<group>"; };
 		76C0E21BD5CAD3E0D0A4ABB9 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
 		785E34CF6573047F106F90F3 /* SubscriptionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionEntity.swift; sourceTree = "<group>"; };
@@ -166,14 +166,14 @@
 		99F28C77BEE65B50E47AD9AA /* CancellationFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellationFinder.swift; sourceTree = "<group>"; };
 		A05455FAC26486BFE2DDD22A /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
 		A607138A653F222A9F2BD35E /* RateBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateBadge.swift; sourceTree = "<group>"; };
-		A859D1DA7D9DC0E8CC6B01B8 /* SubscribeApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SubscribeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A859D1DA7D9DC0E8CC6B01B8 /* Subtally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Subtally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8FB2769022D7678799A4F5 /* TrialActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialActivityAttributes.swift; sourceTree = "<group>"; };
 		ADF01F681DBDA97F2125CC5B /* WebhookPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookPayload.swift; sourceTree = "<group>"; };
 		C2C9148E8A88D02547A8C81B /* WebhookSweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookSweeper.swift; sourceTree = "<group>"; };
 		CC96E73BE77E9A43A65BA4AA /* WebhookTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookTemplateTests.swift; sourceTree = "<group>"; };
 		CF6FF754BFED4DC8D040B2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1B5A7ACF1A8BB88D876426A /* PriceChangeRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChangeRecorderTests.swift; sourceTree = "<group>"; };
-		D21357D50FBD880032BFB366 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D21357D50FBD880032BFB366 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		D4BAA997ED36025BD91A137E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		D4BF2EE5DB7B6549BC398F8F /* InsightsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsEngine.swift; sourceTree = "<group>"; };
 		D74EE06684C1FF9C618A953E /* WidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetProvider.swift; sourceTree = "<group>"; };
@@ -304,7 +304,7 @@
 		5FE83ECFBD999CBAAC5908A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A859D1DA7D9DC0E8CC6B01B8 /* SubscribeApp.app */,
+				A859D1DA7D9DC0E8CC6B01B8 /* Subtally.app */,
 				79DA4AB10A0152ADDFABADBF /* SubscribeAppTests.xctest */,
 				6F383A672E5CC7680816772D /* SubscribeWidgets.appex */,
 			);
@@ -513,7 +513,7 @@
 			packageProductDependencies = (
 			);
 			productName = SubscribeApp;
-			productReference = A859D1DA7D9DC0E8CC6B01B8 /* SubscribeApp.app */;
+			productReference = A859D1DA7D9DC0E8CC6B01B8 /* Subtally.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C6CA4E3E1FEDA943DE7DAF4C /* SubscribeWidgets */ = {
@@ -544,11 +544,9 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					858B1DB7BB07FFB2979B85DC = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 					C6CA4E3E1FEDA943DE7DAF4C = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -728,20 +726,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4257SFGRFK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_BGTaskSchedulerPermittedIdentifiers = (
-					com.samxiao.SubscribeApp.refresh,
-				);
-				INFOPLIST_KEY_CFBundleDisplayName = "订算";
+				INFOPLIST_KEY_BGTaskSchedulerPermittedIdentifiers = com.samxiao.SubscribeApp.refresh;
 				INFOPLIST_KEY_NSCameraUsageDescription = "扫描支付凭证时使用相机";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "从相册选取支付凭证截图";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "用于在订阅到期前发送本地提醒";
-				INFOPLIST_KEY_UIBackgroundModes = (
-					fetch,
-					processing,
-				);
+				INFOPLIST_KEY_UIBackgroundModes = "fetch processing";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -839,7 +831,7 @@
 				CODE_SIGN_ENTITLEMENTS = SubscribeWidgets/SubscribeWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4257SFGRFK;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SubscribeWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -931,20 +923,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4257SFGRFK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_BGTaskSchedulerPermittedIdentifiers = (
-					com.samxiao.SubscribeApp.refresh,
-				);
-				INFOPLIST_KEY_CFBundleDisplayName = "订算";
+				INFOPLIST_KEY_BGTaskSchedulerPermittedIdentifiers = com.samxiao.SubscribeApp.refresh;
 				INFOPLIST_KEY_NSCameraUsageDescription = "扫描支付凭证时使用相机";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "从相册选取支付凭证截图";
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_NSUserNotificationsUsageDescription = "用于在订阅到期前发送本地提醒";
-				INFOPLIST_KEY_UIBackgroundModes = (
-					fetch,
-					processing,
-				);
+				INFOPLIST_KEY_UIBackgroundModes = "fetch processing";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -967,7 +953,7 @@
 				CODE_SIGN_ENTITLEMENTS = SubscribeWidgets/SubscribeWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 4257SFGRFK;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = SubscribeWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
